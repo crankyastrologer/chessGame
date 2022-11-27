@@ -6,7 +6,7 @@ def pawnMove(Current, Next,x):
 
             y= True
         elif Current[1]==1 and Current[1]-Next[1]==-2:
-            if((Current[0] - Next[0]) == 0):
+            if (Current[0] - Next[0]) == 0:
                 y=True
         else:
             print('pawn move')
@@ -16,7 +16,7 @@ def pawnMove(Current, Next,x):
         if (Current[0] - Next[0]) == 0 and (Current[1] - Next[1]) == 1:
 
             y= True
-        elif(Current[1]==6 and Current[1]-Next[1]==2):
+        elif Current[1]==6 and Current[1]-Next[1]==2:
             if (Current[0] - Next[0]) == 0:
                 y=True
         else:
